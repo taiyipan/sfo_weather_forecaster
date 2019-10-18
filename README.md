@@ -1,5 +1,6 @@
 SFO Weather Forecaster Prototype - technical specifications
 
+
 Input:
 
 Past history window of 5 days, at 3 hour intervals;
@@ -10,12 +11,14 @@ Past history window of 5 days, at 3 hour intervals;
                    sped (wind speed in mph),
                    alti (altimeter in inches (indicate air pressure)),
                    vsby (visibility in miles)
-                   
+
+
 Output:
 
 Future target window of 24 hours
 
 1 feature: tmpc
+
 
 Model architecture:
 
@@ -27,11 +30,13 @@ Learning rate: optimal = 0.008, default = 0.001
 
 Loss function: mae (mean absolute error)
 
+
 Training data:
 
 623,725 samples * 6 feature columns
 
 500,000 samples for training, the rest for validation
+
 
 Current loss after training:
 
