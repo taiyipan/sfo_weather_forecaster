@@ -9,4 +9,4 @@
 ![alt text](big_nn_predictions/Figure_8.png)
 ![alt text](big_nn_predictions/Figure_9.png)
 ![alt text](big_nn_predictions/Figure_10.png)
-![alt text](architecture.png)
+![alt text](architecture.PNG)
