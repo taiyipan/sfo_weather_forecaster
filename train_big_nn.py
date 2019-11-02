@@ -181,7 +181,7 @@ val_data_multi = val_data_multi.shuffle(BUFFER_SIZE).batch(BATCH_SIZE).repeat() 
 # for x, y in train_data_multi.take(1):
 #     multi_step_plot(x[0], y[0], np.array([0]))
 
-# create model: 144,984 parameters
+# create model
 model = tf.keras.models.Sequential([
     # layers.Lambda(lambda x: tf.expand_dims(x, axis = -1), input_shape = x_train_multi.shape[-2:]),
     # layers.Conv2D(filters = 60, kernel_size = 3, strides = 1, activation = 'relu'),
